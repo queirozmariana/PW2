@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora</title>
+<link rel="stylesheet" href="../Calculadora/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Calculadora</h1>
+
+<form action="processar11.php" method="POST">
+
+<label>Primeiro Valor:</label>
+<input type="number" step="0.01" name="valor1" required>
+
+<label>Segundo Valor:</label>
+<input type="number" step="0.01" name="valor2" required>
+
+<label>Operação:</label>
+
+<select name="operador" required>
+    <option value="+">Soma (+)</option>
+    <option value="-">Subtração (-)</option>
+    <option value="*">Multiplicação (*)</option>
+    <option value="/">Divisão (/)</option>
+</select>
+
+<button type="submit">
+Calcular
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Média do Aluno</title>
+<link rel="stylesheet" href="../Media_aluno/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Média do Aluno</h1>
+
+<form action="processar3.php" method="POST">
+
+<label>1ª Nota:</label>
+<input type="number" step="0.1" min="1" max="10" name="nota1" required>
+
+<label>2ª Nota:</label>
+<input type="number" step="0.1" min="1" max="10" name="nota2" required>
+
+<label>3ª Nota:</label>
+<input type="number" step="0.1" min="1" max="10" name="nota3" required>
+
+<label>4ª Nota:</label>
+<input type="number" step="0.1" min="1" max="10" name="nota4" required>
+
+<button type="submit">
+Calcular Média
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
