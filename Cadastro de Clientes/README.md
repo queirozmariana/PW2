@@ -208,6 +208,46 @@ grao-co/
 └── README.md
 ```
 
+## 🖥️ Prints da aplicação
+
+Abaixo estão algumas telas do sistema em funcionamento, mostrando as principais funcionalidades do CRM.
+
+### Dashboard
+
+Tela principal com os indicadores de clientes, compras, total em vendas e clientes recentes.
+
+![Dashboard](prints/01-dashboard.png)
+
+### Clientes
+
+Tela de gerenciamento dos clientes, com pesquisa, informações de contato, quantidade de compras, total gasto e ações de visualização, edição e exclusão.
+
+![Clientes](prints/01-clientes.png)
+
+### Cadastro de cliente
+
+Tela utilizada para cadastrar um novo cliente no sistema.
+
+![Cadastro de cliente](prints/01-cadastro-cliente.png)
+
+### Compras
+
+Tela com o histórico de compras realizadas pelos clientes, apresentando produto, quantidade, valor unitário, total e data.
+
+![Compras](prints/01-compras.png)
+
+### Histórico de compras
+
+Tela de histórico completo das compras, com quantidade de compras registradas, total em vendas, ticket médio e opção de pesquisa.
+
+![Histórico de compras](prints/01-historico.png)
+
+### Visualização do cliente
+
+Tela de detalhes de um cliente, apresentando seus dados de contato e seu histórico de compras.
+
+![Visualização do cliente](prints/01-vizualizar-cliente.png)
+
 ## 👩‍💻 Autoria
 
 **Mariana Queiroz**
