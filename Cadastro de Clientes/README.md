@@ -1,10 +1,12 @@
 # ☕ Grão & Co. — CRM de Clientes
 
-Sistema web de **Cadastro de Clientes (CRM Simples)** desenvolvido para uma cafeteria fictícia. O sistema permite cadastrar clientes, consultar seus dados de contato e registrar o histórico de compras.
+Sistema web de **Cadastro de Clientes (CRM Simples)** desenvolvido para uma cafeteria fictícia.
+
+O sistema permite cadastrar clientes, consultar seus dados, registrar compras e acompanhar o histórico de compras de cada cliente.
 
 ## 🎯 Objetivo
 
-Desenvolver um sistema CRUD utilizando PHP, MySQL, Bootstrap e JavaScript, com foco no gerenciamento de clientes e no histórico de compras.
+Desenvolver um sistema CRUD utilizando **PHP e MySQL**, com interface desenvolvida com **Bootstrap e JavaScript**, tendo como foco o gerenciamento de clientes e o histórico de compras.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -21,6 +23,7 @@ Desenvolver um sistema CRUD utilizando PHP, MySQL, Bootstrap e JavaScript, com f
 ## ✨ Funcionalidades
 
 ### Dashboard
+
 - Total de clientes cadastrados
 - Total de compras
 - Total em vendas
@@ -28,6 +31,7 @@ Desenvolver um sistema CRUD utilizando PHP, MySQL, Bootstrap e JavaScript, com f
 - Lista de clientes recentes
 
 ### Clientes
+
 - Cadastrar cliente
 - Listar clientes
 - Pesquisar clientes
@@ -36,6 +40,7 @@ Desenvolver um sistema CRUD utilizando PHP, MySQL, Bootstrap e JavaScript, com f
 - Excluir cliente
 
 ### Compras
+
 - Cadastrar compra
 - Listar compras
 - Editar compra
@@ -43,11 +48,11 @@ Desenvolver um sistema CRUD utilizando PHP, MySQL, Bootstrap e JavaScript, com f
 - Associar compra a um cliente
 - Visualizar histórico de compras por cliente
 - Calcular automaticamente o total de cada compra
-- Calcular total gasto por cliente
+- Calcular o total gasto por cliente
 
 ## 🗃️ Banco de dados
 
-O projeto utiliza duas tabelas principais:
+O projeto utiliza duas tabelas principais: `clientes` e `compras`.
 
 ### `clientes`
 
@@ -79,6 +84,14 @@ Um cliente pode possuir várias compras.
 
 A chave estrangeira `compras.cliente_id` referencia `clientes.id`.
 
+## 🎥 Vídeo de funcionamento
+
+O vídeo demonstrando o funcionamento do sistema está disponível na pasta **`video/`** do projeto.
+
+**Arquivo:** `Gravações de Tela - Cafeteria.mp4`
+
+O vídeo apresenta as principais funcionalidades do sistema em funcionamento.
+
 ## 🚀 Como executar o projeto
 
 ### 1. Instale o XAMPP
@@ -94,60 +107,44 @@ Ative:
 
 Copie a pasta `grao-co` para:
 
-```text
-C:\xampp\htdocs\
-```
+`C:\xampp\htdocs\`
 
 O caminho final deve ser:
 
-```text
-C:\xampp\htdocs\grao-co\
-```
+`C:\xampp\htdocs\grao-co\`
 
 ### 3. Crie o banco de dados
 
 Abra:
 
-```text
-http://localhost/phpmyadmin
-```
+`http://localhost/phpmyadmin`
 
-Clique em **Importar** e selecione:
+Clique em **Importar** e selecione o arquivo:
 
-```text
-sql/banco_phpmyadmin.sql
-```
+`sql/banco_phpmyadmin.sql`
 
 Execute a importação.
 
-O banco `grao_co_crm` deve ser criado/selecionado no phpMyAdmin antes da importação. O arquivo cria as tabelas e alguns dados de demonstração.
+O banco `grao_co_crm` deve ser criado ou selecionado no phpMyAdmin antes da importação.
+
+O arquivo SQL cria as tabelas e alguns dados de demonstração.
 
 ### 4. Verifique a conexão
 
-O arquivo:
+O arquivo `config/conexao.php` utiliza a configuração padrão do XAMPP:
 
-```text
-config/conexao.php
-```
+- **Host:** localhost
+- **Usuário:** root
+- **Senha:** vazia
+- **Banco:** grao_co_crm
 
-usa a configuração padrão do XAMPP:
-
-```text
-Host: localhost
-Usuário: root
-Senha: vazia
-Banco: grao_co_crm
-```
-
-Se o seu XAMPP estiver configurado dessa forma, nenhuma alteração será necessária.
+Se o XAMPP estiver configurado dessa forma, nenhuma alteração será necessária.
 
 ### 5. Abra o sistema
 
 Acesse:
 
-```text
-http://localhost/grao-co/
-```
+`http://localhost/grao-co/`
 
 ## 🔄 Operações CRUD
 
@@ -169,10 +166,11 @@ Também possui CRUD de compras:
 
 O projeto utiliza uma identidade visual inspirada em cafeterias contemporâneas, com tons de café, creme e caramelo.
 
-A interface foi desenvolvida com Bootstrap, Bootstrap Icons e CSS próprio, incluindo:
+A interface foi desenvolvida utilizando **Bootstrap, Bootstrap Icons e CSS próprio**, incluindo:
 
-- Sidebar de navegação sem emojis
-- Dashboard com indicadores e ilustração temática de cafeteria
+- Sidebar de navegação
+- Dashboard com indicadores
+- Ilustração temática de cafeteria
 - Cards
 - Tabelas responsivas
 - Formulários
@@ -180,7 +178,7 @@ A interface foi desenvolvida com Bootstrap, Bootstrap Icons e CSS próprio, incl
 - Histórico de compras
 - Responsividade para telas menores
 
-## 📁 Estrutura
+## 📁 Estrutura do projeto
 
 ```text
 grao-co/
@@ -193,7 +191,9 @@ grao-co/
 ├── js/
 │   └── script.js
 ├── sql/
-│   └── banco.sql
+│   └── banco_phpmyadmin.sql
+├── video/
+│   └── Gravações de Tela - Cafeteria.mp4
 ├── index.php
 ├── clientes.php
 ├── cliente.php
@@ -210,9 +210,12 @@ grao-co/
 
 ## 👩‍💻 Autoria
 
-Projeto acadêmico — Desenvolvimento de Sistemas Por:
-Mariana Queiroz
+**Mariana Queiroz**
+
+Projeto acadêmico — Desenvolvimento de Sistemas.
+
+---
+
+⚠️ **Projeto desenvolvido para fins acadêmicos.**
 
 **Grão & Co. — CRM de Clientes**
-
-⚠️ Projeto desenvolvido para fins acadêmicos.
