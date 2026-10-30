@@ -6,10 +6,7 @@
 
 **Plataforma de jogos educativos em PHP que transforma dados de APIs públicas em quizzes interativos.**
 
-![PHP](https://img.shields.io/badge/PHP-8.1%2B-777BB4?logo=php&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-banco%20local-003B57?logo=sqlite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
-![APIs](https://img.shields.io/badge/APIs-sem%20chave-1AA6A0)
+🐘 **PHP** &nbsp;·&nbsp; 🗄️ **SQLite** &nbsp;·&nbsp; ⚡ **JavaScript** &nbsp;·&nbsp; 🔓 **APIs sem chave**
 
 *Projeto da atividade **API pública para sites PHP***
 
@@ -118,9 +115,9 @@ Cada partida tem **10 perguntas** de múltipla escolha.
 ### Passo a passo
 
 ```bash
-# 1. Clone o repositório
-git clone <URL-DO-REPOSITORIO>
-cd PlayLab
+# 1. Clone o repositório e entre na pasta do projeto
+git clone https://github.com/queirozmariana/PW2.git
+cd "PW2/Integração com APIs/PlayLab"
 
 # 2. Inicie o servidor embutido do PHP
 php -S localhost:8000
@@ -195,7 +192,7 @@ Navegador ──► api/pergunta.php ──► includes/perguntas.php ──► 
 
 ## 🎥 Vídeo de demonstração
 
-> 👉 **[Assistir à demonstração](COLE-AQUI-O-LINK-DO-VIDEO)**
+> 👉 **[Assistir à demonstração](https://youtu.be/GbykHN8tuAs)**
 
 ---
 
