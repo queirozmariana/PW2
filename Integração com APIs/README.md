@@ -62,6 +62,46 @@ Cada partida tem **10 perguntas** de múltipla escolha.
 
 ---
 
+## 📸 Capturas de tela
+
+### 🏠 Página inicial e catálogo
+
+<p align="center">
+  <img src="imagens/inicio.png" alt="Página inicial do PlayLab" width="48%">
+  <img src="imagens/catalogo.png" alt="Catálogo de jogos com pesquisa, filtros e favoritos" width="48%">
+</p>
+
+### 🕹️ Jogos
+
+<table>
+  <tr>
+    <td align="center"><img src="imagens/bandeiras.png" alt="Desafio das Bandeiras"><br><sub><b>Desafio das Bandeiras</b></sub></td>
+    <td align="center"><img src="imagens/capitais.png" alt="Mestre das Capitais"><br><sub><b>Mestre das Capitais</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="imagens/duelo.png" alt="Duelo de Países"><br><sub><b>Duelo de Países</b></sub></td>
+    <td align="center"><img src="imagens/pokemon.png" alt="Quem é esse Pokémon?"><br><sub><b>Quem é esse Pokémon?</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><img src="imagens/clima.png" alt="Termômetro Mundial" width="50%"><br><sub><b>Termômetro Mundial</b></sub></td>
+  </tr>
+</table>
+
+### 🔎 Explorar Pokémon (consulta à PokeAPI)
+
+<p align="center">
+  <img src="imagens/explorar.png" alt="Página Explorar Pokémon com formulário de consulta e resultado" width="80%">
+</p>
+
+### 👤 Perfil do jogador
+
+<p align="center">
+  <img src="imagens/perfil.png" alt="Perfil com nível, XP e conquistas" width="48%">
+  <img src="imagens/perfil-desempenho.png" alt="Desempenho por jogo e histórico recente" width="48%">
+</p>
+
+---
+
 ## ✨ Funcionalidades
 
 - 🔐 **Cadastro e login** com senha protegida por `password_hash` e proteção **CSRF**
@@ -127,14 +167,6 @@ Abra **http://localhost:8000** no navegador, crie uma conta e jogue. 🎉
 
 > O banco de dados (`data/playlab.sqlite`) é criado **automaticamente** no primeiro acesso. Não precisa instalar nem configurar nada.
 
-### 🩹 Problemas comuns
-
-| Sintoma | Solução |
-|---|---|
-| Os jogos de Pokémon ou Clima mostram erro de conexão | Verifique se `extension=curl` e `extension=openssl` estão ativas no `php.ini` (sem `;` na frente) e se há internet |
-| `could not find driver` | Ative `extension=pdo_sqlite` e `extension=sqlite3` no `php.ini` |
-| A tela não muda depois de atualizar o código | Reinicie o `php -S` e use **Ctrl + F5** |
-
 ---
 
 ## 🗂️ Estrutura do projeto
@@ -198,7 +230,7 @@ Navegador ──► api/pergunta.php ──► includes/perguntas.php ──► 
 
 <div align="center">
 
-Feito com 💛 por **Mariana**
+Feito por: **Mariana**
 
 *PlayLab · projeto de integração com APIs públicas (PokeAPI, Open-Meteo e base de países) · PHP*
 
