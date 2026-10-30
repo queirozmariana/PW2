@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Salário</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calcular Salário</h1>
+
+        <form action="calcularSalario.php" method="post">
+
+            <label>
+                Horas trabalhadas:
+                <input type="text" name="txthoras" required>
+            </label>
+
+            <label>
+                Valor por hora:
+                <input type="text" name="txtvalor" required>
+            </label>
+
+            <div class="buttons">
+                <input type="submit" value="Calcular">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
