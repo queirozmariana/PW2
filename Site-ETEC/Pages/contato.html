@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | ETEC Zona Leste</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <section class="contact-hero">
+    <header class="contact-header">
+      <div class="contact-logo-wrap">
+        <img src="../Imagens/etec_zona_leste logo.png" alt="Logo ETEC Zona Leste e CPS" class="contact-logo">
+      </div>
+
+      <nav class="contact-nav">
+        <a href="../Pages/index.html">Home</a>
+        <a href="../Pages/sobre.html">Quem somos</a>
+        <a href="../Pages/cursos.html">Cursos</a>
+        <a href="../Pages/contato.html" class="active-link">Contato</a>
+      </nav>
+
+      <div class="hero-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Buscar cursos, eventos...">
+        </div>
+
+        <a href="../Pages/login.html" class="login-link">Entrar</a>
+      </div>
+    </header>
+
+    <div class="contact-hero-content">
+      <h1>Estamos prontos para ouvir você.</h1>
+
+      <p class="contact-subtitle">
+        Entre em contato para dúvidas sobre cursos, vestibulinho, documentos, eventos e informações acadêmicas da ETEC Zona Leste.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact-main">
+
+    <div class="contact-form-card">
+
+      <div class="card-header">
+        <p class="section-kicker">Fale com a instituição</p>
+        <h2>Envie sua mensagem</h2>
+      </div>
+
+      <form action="../Pages/processar.php" method="POST" class="contact-form">
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              autocomplete="name"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input
+              type="text"
+              id="telefone"
+              name="telefone"
+              autocomplete="tel"
+              placeholder="(11) 91234-5678"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="instituicao">Escola/Instituição</label>
+            <input
+              type="text"
+              id="instituicao"
+              name="instituicao"
+              autocomplete="organization"
+              required>
+          </div>
+
+          <div class="form-group full">
+            <label for="assunto">Assunto</label>
+
+            <select
+              id="assunto"
+              name="assunto"
+              required>
+
+              <option value="">Selecione um assunto</option>
+              <option value="Cursos">Cursos</option>
+              <option value="Vestibulinho">Vestibulinho</option>
+              <option value="Eventos">Eventos</option>
+              <option value="Documentos">Documentos</option>
+              <option value="Secretaria">Secretaria</option>
+              <option value="Outros">Outros</option>
+
+            </select>
+          </div>
+
+          <div class="form-group full">
+
+            <label for="mensagem">Mensagem</label>
+
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="7"
+              maxlength="500"
+              placeholder="Conte-nos mais sobre sua necessidade..."
+              required></textarea>
+
+          </div>
+
+        </div>
+
+        <div class="checkbox-wrap">
+
+          <input
+            type="checkbox"
+            id="newsletter"
+            name="newsletter">
+
+          <label for="newsletter">
+            Gostaria de receber novidades e atualizações por email
+          </label>
+
+        </div>
+
+        <button
+          type="submit"
+          class="send-button">
+          Enviar mensagem
+        </button>
+
+      </form>
+
+    </div>
+
+    <aside class="contact-info-card">
+
+      <div class="card-header">
+        <p class="section-kicker">Informações institucionais</p>
+        <h2>Contato e atendimento</h2>
+      </div>
+
+      <div class="info-list">
+
+        <div class="info-item">
+          <div class="info-icon">✉</div>
+
+          <div>
+            <h3>Email</h3>
+            <p>eteczonaleste@cps.sp.gov.br</p>
+          </div>
+
+        </div>
+
+        <div class="info-item">
+
+          <div class="info-icon">☎</div>
+
+          <div>
+            <h3>Telefone</h3>
+            <p>(11) 0000-0000</p>
+          </div>
+
+        </div>
+
+        <div class="info-item">
+
+          <div class="info-icon">⏱︎</div>
+
+          <div>
+            <h3>Horário de atendimento</h3>
+            <p>Segunda a sexta: 8h às 18h</p>
+          </div>
+
+        </div>
+
+        <div class="info-item">
+
+          <div class="info-icon">𖡡</div>
+
+          <div>
+            <h3>Endereço</h3>
+            <p>Av. Águia de Haia, 2633 - São Paulo/SP</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="social-box">
+        <h3>Siga a ETEC</h3>
+
+        <a href="https://www.instagram.com/eteczonalesteoficial/">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">YouTube</a>
+
+      </div>
+
+    </aside>
+
+  </section>
+
+    <section class="faq-section">
+    <div class="faq-header">
+      <p class="section-kicker center">Dúvidas comuns</p>
+      <h2>Perguntas frequentes</h2>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Como funciona o ingresso na ETEC?
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            O ingresso ocorre principalmente por meio do Vestibulinho,
+            conforme os editais e calendários divulgados oficialmente.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Quais modalidades de curso estão disponíveis?
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            A unidade oferece cursos técnicos modulares, Ensino Médio
+            Integrado e modalidades articuladas como AMS.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Posso tirar dúvidas sobre documentos e secretaria?
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Sim. O formulário pode ser usado para contato sobre documentos,
+            matrícula, rematrícula e orientações administrativas.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          A escola realiza eventos e comunicados acadêmicos?
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Sim. A ETEC divulga atividades institucionais, projetos,
+            cronogramas e comunicados por meio de seus canais oficiais.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="contact-footer">
+
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3>ETEC Zona Leste</h3>
+
+        <p>
+          Ensino técnico público de qualidade, com foco em formação
+          profissional, inovação e oportunidades para o futuro.
+        </p>
+      </div>
+
+      <div class="footer-col">
+
+        <h3>Contato</h3>
+
+        <p>Av. Águia de Haia, 2633</p>
+        <p>São Paulo - SP</p>
+        <p>Próximo ao Terminal AE Carvalho</p>
+
+      </div>
+
+      <div class="footer-col">
+
+        <h3>Páginas</h3>
+
+        <a href="../Pages/index.html">Início</a>
+        <a href="../Pages/sobre.html">Quem somos</a>
+        <a href="../Pages/cursos.html">Cursos</a>
+        <a href="../Pages/eventos.html">Eventos</a>
+
+      </div>
+
+      <div class="footer-col">
+
+        <h3>Acadêmico</h3>
+
+        <a href="../Pages/cursos.html">Vestibulinho</a>
+        <a href="../Pages/eventos.html">Calendário</a>
+        <a href="../Pages/cursos.html">Cursos</a>
+        <a href="../Pages/sobre.html">NSA</a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ETEC Zona Leste — Todos os direitos reservados</p>
+    </div>
+
+  </footer>
+
+  <script src="../JS/script.js"></script>
+
+</body>
+</html>
