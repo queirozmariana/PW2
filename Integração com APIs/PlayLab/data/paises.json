@@ -1,0 +1,443 @@
+[
+ {
+  "iso": "br",
+  "nome": "Brasil",
+  "capital": "Brasília",
+  "pop": 212000000,
+  "area": 8515767
+ },
+ {
+  "iso": "ar",
+  "nome": "Argentina",
+  "capital": "Buenos Aires",
+  "pop": 46000000,
+  "area": 2780400
+ },
+ {
+  "iso": "cl",
+  "nome": "Chile",
+  "capital": "Santiago",
+  "pop": 19500000,
+  "area": 756102
+ },
+ {
+  "iso": "co",
+  "nome": "Colômbia",
+  "capital": "Bogotá",
+  "pop": 52000000,
+  "area": 1141748
+ },
+ {
+  "iso": "pe",
+  "nome": "Peru",
+  "capital": "Lima",
+  "pop": 34000000,
+  "area": 1285216
+ },
+ {
+  "iso": "uy",
+  "nome": "Uruguai",
+  "capital": "Montevidéu",
+  "pop": 3400000,
+  "area": 176215
+ },
+ {
+  "iso": "py",
+  "nome": "Paraguai",
+  "capital": "Assunção",
+  "pop": 6800000,
+  "area": 406752
+ },
+ {
+  "iso": "bo",
+  "nome": "Bolívia",
+  "capital": "Sucre",
+  "pop": 12000000,
+  "area": 1098581
+ },
+ {
+  "iso": "ve",
+  "nome": "Venezuela",
+  "capital": "Caracas",
+  "pop": 28000000,
+  "area": 916445
+ },
+ {
+  "iso": "ec",
+  "nome": "Equador",
+  "capital": "Quito",
+  "pop": 18000000,
+  "area": 283561
+ },
+ {
+  "iso": "mx",
+  "nome": "México",
+  "capital": "Cidade do México",
+  "pop": 128000000,
+  "area": 1964375
+ },
+ {
+  "iso": "ca",
+  "nome": "Canadá",
+  "capital": "Ottawa",
+  "pop": 40000000,
+  "area": 9984670
+ },
+ {
+  "iso": "us",
+  "nome": "Estados Unidos",
+  "capital": "Washington, D.C.",
+  "pop": 335000000,
+  "area": 9372610
+ },
+ {
+  "iso": "cu",
+  "nome": "Cuba",
+  "capital": "Havana",
+  "pop": 11000000,
+  "area": 109884
+ },
+ {
+  "iso": "pt",
+  "nome": "Portugal",
+  "capital": "Lisboa",
+  "pop": 10400000,
+  "area": 92090
+ },
+ {
+  "iso": "es",
+  "nome": "Espanha",
+  "capital": "Madri",
+  "pop": 48000000,
+  "area": 505992
+ },
+ {
+  "iso": "fr",
+  "nome": "França",
+  "capital": "Paris",
+  "pop": 68000000,
+  "area": 551695
+ },
+ {
+  "iso": "de",
+  "nome": "Alemanha",
+  "capital": "Berlim",
+  "pop": 84000000,
+  "area": 357114
+ },
+ {
+  "iso": "it",
+  "nome": "Itália",
+  "capital": "Roma",
+  "pop": 59000000,
+  "area": 301336
+ },
+ {
+  "iso": "gb",
+  "nome": "Reino Unido",
+  "capital": "Londres",
+  "pop": 68000000,
+  "area": 242495
+ },
+ {
+  "iso": "ie",
+  "nome": "Irlanda",
+  "capital": "Dublin",
+  "pop": 5300000,
+  "area": 70273
+ },
+ {
+  "iso": "nl",
+  "nome": "Países Baixos",
+  "capital": "Amsterdã",
+  "pop": 17800000,
+  "area": 41850
+ },
+ {
+  "iso": "be",
+  "nome": "Bélgica",
+  "capital": "Bruxelas",
+  "pop": 11700000,
+  "area": 30528
+ },
+ {
+  "iso": "ch",
+  "nome": "Suíça",
+  "capital": "Berna",
+  "pop": 8800000,
+  "area": 41284
+ },
+ {
+  "iso": "at",
+  "nome": "Áustria",
+  "capital": "Viena",
+  "pop": 9100000,
+  "area": 83871
+ },
+ {
+  "iso": "se",
+  "nome": "Suécia",
+  "capital": "Estocolmo",
+  "pop": 10500000,
+  "area": 450295
+ },
+ {
+  "iso": "no",
+  "nome": "Noruega",
+  "capital": "Oslo",
+  "pop": 5500000,
+  "area": 323802
+ },
+ {
+  "iso": "fi",
+  "nome": "Finlândia",
+  "capital": "Helsinque",
+  "pop": 5600000,
+  "area": 338424
+ },
+ {
+  "iso": "dk",
+  "nome": "Dinamarca",
+  "capital": "Copenhague",
+  "pop": 5900000,
+  "area": 43094
+ },
+ {
+  "iso": "is",
+  "nome": "Islândia",
+  "capital": "Reykjavik",
+  "pop": 380000,
+  "area": 103000
+ },
+ {
+  "iso": "pl",
+  "nome": "Polônia",
+  "capital": "Varsóvia",
+  "pop": 37000000,
+  "area": 312679
+ },
+ {
+  "iso": "gr",
+  "nome": "Grécia",
+  "capital": "Atenas",
+  "pop": 10400000,
+  "area": 131990
+ },
+ {
+  "iso": "tr",
+  "nome": "Turquia",
+  "capital": "Ancara",
+  "pop": 85000000,
+  "area": 783562
+ },
+ {
+  "iso": "ru",
+  "nome": "Rússia",
+  "capital": "Moscou",
+  "pop": 144000000,
+  "area": 17098242
+ },
+ {
+  "iso": "ua",
+  "nome": "Ucrânia",
+  "capital": "Kiev",
+  "pop": 38000000,
+  "area": 603500
+ },
+ {
+  "iso": "cz",
+  "nome": "Tchéquia",
+  "capital": "Praga",
+  "pop": 10900000,
+  "area": 78865
+ },
+ {
+  "iso": "hu",
+  "nome": "Hungria",
+  "capital": "Budapeste",
+  "pop": 9600000,
+  "area": 93028
+ },
+ {
+  "iso": "ro",
+  "nome": "Romênia",
+  "capital": "Bucareste",
+  "pop": 19000000,
+  "area": 238391
+ },
+ {
+  "iso": "eg",
+  "nome": "Egito",
+  "capital": "Cairo",
+  "pop": 112000000,
+  "area": 1002450
+ },
+ {
+  "iso": "za",
+  "nome": "África do Sul",
+  "capital": "Pretória",
+  "pop": 60000000,
+  "area": 1221037
+ },
+ {
+  "iso": "ng",
+  "nome": "Nigéria",
+  "capital": "Abuja",
+  "pop": 224000000,
+  "area": 923768
+ },
+ {
+  "iso": "ke",
+  "nome": "Quênia",
+  "capital": "Nairóbi",
+  "pop": 55000000,
+  "area": 580367
+ },
+ {
+  "iso": "et",
+  "nome": "Etiópia",
+  "capital": "Adis Abeba",
+  "pop": 126000000,
+  "area": 1104300
+ },
+ {
+  "iso": "ma",
+  "nome": "Marrocos",
+  "capital": "Rabat",
+  "pop": 37000000,
+  "area": 446550
+ },
+ {
+  "iso": "dz",
+  "nome": "Argélia",
+  "capital": "Argel",
+  "pop": 45000000,
+  "area": 2381741
+ },
+ {
+  "iso": "gh",
+  "nome": "Gana",
+  "capital": "Acra",
+  "pop": 34000000,
+  "area": 238533
+ },
+ {
+  "iso": "ao",
+  "nome": "Angola",
+  "capital": "Luanda",
+  "pop": 36000000,
+  "area": 1246700
+ },
+ {
+  "iso": "mz",
+  "nome": "Moçambique",
+  "capital": "Maputo",
+  "pop": 33000000,
+  "area": 801590
+ },
+ {
+  "iso": "cn",
+  "nome": "China",
+  "capital": "Pequim",
+  "pop": 1410000000,
+  "area": 9706961
+ },
+ {
+  "iso": "jp",
+  "nome": "Japão",
+  "capital": "Tóquio",
+  "pop": 124000000,
+  "area": 377975
+ },
+ {
+  "iso": "in",
+  "nome": "Índia",
+  "capital": "Nova Délhi",
+  "pop": 1430000000,
+  "area": 3287263
+ },
+ {
+  "iso": "kr",
+  "nome": "Coreia do Sul",
+  "capital": "Seul",
+  "pop": 51000000,
+  "area": 100210
+ },
+ {
+  "iso": "id",
+  "nome": "Indonésia",
+  "capital": "Jacarta",
+  "pop": 277000000,
+  "area": 1904569
+ },
+ {
+  "iso": "th",
+  "nome": "Tailândia",
+  "capital": "Bangcoc",
+  "pop": 72000000,
+  "area": 513120
+ },
+ {
+  "iso": "vn",
+  "nome": "Vietnã",
+  "capital": "Hanói",
+  "pop": 99000000,
+  "area": 331212
+ },
+ {
+  "iso": "ph",
+  "nome": "Filipinas",
+  "capital": "Manila",
+  "pop": 117000000,
+  "area": 300000
+ },
+ {
+  "iso": "sa",
+  "nome": "Arábia Saudita",
+  "capital": "Riade",
+  "pop": 36000000,
+  "area": 2149690
+ },
+ {
+  "iso": "ir",
+  "nome": "Irã",
+  "capital": "Teerã",
+  "pop": 89000000,
+  "area": 1648195
+ },
+ {
+  "iso": "il",
+  "nome": "Israel",
+  "capital": "Jerusalém",
+  "pop": 9800000,
+  "area": 20770
+ },
+ {
+  "iso": "pk",
+  "nome": "Paquistão",
+  "capital": "Islamabad",
+  "pop": 240000000,
+  "area": 881913
+ },
+ {
+  "iso": "au",
+  "nome": "Austrália",
+  "capital": "Camberra",
+  "pop": 26000000,
+  "area": 7692024
+ },
+ {
+  "iso": "nz",
+  "nome": "Nova Zelândia",
+  "capital": "Wellington",
+  "pop": 5200000,
+  "area": 268021
+ },
+ {
+  "iso": "ae",
+  "nome": "Emirados Árabes Unidos",
+  "capital": "Abu Dhabi",
+  "pop": 9500000,
+  "area": 83600
+ }
+]
